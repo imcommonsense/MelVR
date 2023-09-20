@@ -20,9 +20,10 @@
 * Prerendered cutscenes do not display correctly in headset.
 
 ## How to use
-1. Download [MelVR.zip](https://github.com/imcommonsense/MelVR/releases) and extract the files to your Portal Stories: Mel directory (steamapps\common\Portal Stories Mel)
-2. Disable "Allow background processing of Vulkan shaders" (Steam Settings -> Shader Pre-Caching)
-3. Connect your headset, then launch Portal 2 with these launch options:
+1. Navigate to your portal_stories directory ```steamapps\common\Portal Stories Mel\portal_stories``` and delete EVERY file that begins with ```pak01```
+2. Download [MelVR.zip](https://github.com/imcommonsense/MelVR/releases) and extract the files to your Portal Stories: Mel directory (steamapps\common\Portal Stories Mel)
+3. Disable "Allow background processing of Vulkan shaders" (Steam Settings -> Shader Pre-Caching)
+4. Connect your headset, then launch Portal Stories: Mel with these launch options:
    
    ``` -insecure -window -novid +mat_motion_blur_percent_of_screen_max 0 +mat_queue_mode 0 +mat_vsync 0 +mat_grain_scale_override 0 -width 1280 -height 720 ```
 
