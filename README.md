@@ -1,7 +1,7 @@
 <div align="center">
   <p>
     <a align="center" href="https://ultralytics.com/yolov5" target="_blank">
-      <img width="auto" src="https://raw.githubusercontent.com/Gistix/portal2vr/main/imgs/logo.png"></a>
+      <img width="auto" src="https://raw.githubusercontent.com/imcommonsense/MelVR/main/imgs/logo.png"></a>
   </p>
 </div>
 
