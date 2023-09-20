@@ -219,7 +219,7 @@
    "category" : "steamvr_input",
    "controller_type" : "vive_cosmos_controller",
    "description" : "",
-   "name" : "Portal 2 VR bindings for Vive Cosmos Controllers",
+   "name" : "Default Left 4 Dead 2 VR bindings for Vive Cosmos Controllers",
    "options" : {},
    "simulated_actions" : []
 }

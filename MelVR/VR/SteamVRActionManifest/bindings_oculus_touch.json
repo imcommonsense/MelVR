@@ -219,7 +219,7 @@
    "category" : "steamvr_input",
    "controller_type" : "oculus_touch",
    "description" : "",
-   "name" : "Portal 2 VR bindings for Oculus Touch",
+   "name" : "Default Left 4 Dead 2 VR bindings for Oculus Touch",
    "options" : {},
    "simulated_actions" : []
 }

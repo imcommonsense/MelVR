@@ -234,7 +234,7 @@
    "category" : "steamvr_input",
    "controller_type" : "knuckles",
    "description" : "",
-   "name" : "Default Portal 2 VR bindings for Index Controllers",
+   "name" : "Default Left 4 Dead 2 VR bindings for Index Controllers",
    "options" : {},
    "simulated_actions" : []
 }

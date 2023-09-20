@@ -1,0 +1,1 @@
+copy ..\portal2\maps\soundcache\_master.cache maps\soundcache
