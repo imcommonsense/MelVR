@@ -8,6 +8,7 @@
 # ![Portal Stories: Mel icon by carl6005](imgs/icon.png "Portal Stories: Mel Icon by carl6005") Portal Stories: Mel VR
 * THIS REPOSITORY CONTAINS CONTENT OWNED BY [VALVE SOFTWARE](https://www.valvesoftware.com/) AND [PRISM GAME STUDIOS LTD.](prismstudios.org)
 * ALL RIGHTS GO TO THEIR RESPECTIVE OWNERS
+* Note: unfortunently, my hdd with the files got corrupted months ago. i will get back to this mod, but as of right now, this is no longer in current development.
 
 ## Things that work
 * 6DoF VR view
