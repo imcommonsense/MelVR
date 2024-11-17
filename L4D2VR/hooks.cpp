@@ -458,7 +458,7 @@ int Hooks::dReadUsercmd(bf_read *buf, CUserCmd* move, CUserCmd* from)
 	auto result = hkReadUsercmd.fOriginal(buf, move, from);
 
 	int i = m_Game->m_CurrentUsercmdID;
-	auto vrPlayer = m_Game->m_PlayersVRInfo[i];
+	auto& vrPlayer = m_Game->m_PlayersVRInfo[i];
 
 	auto pos = buf->Tell();
 	int res = buf->ReadChar();
@@ -891,7 +891,7 @@ QAngle& __fastcall Hooks::dEyeAngles(void* ecx, void* edx) {
 		int localIndex = m_Game->m_EngineClient->GetLocalPlayer();
 		int index = EntityIndex(ecx);
 
-		auto vrPlayer = m_Game->m_PlayersVRInfo[index];
+		auto& vrPlayer = m_Game->m_PlayersVRInfo[index];
 
 		if (m_VR->m_IsVREnabled && localIndex == index) {
 			return m_VR->GetRightControllerAbsAngleConst();
